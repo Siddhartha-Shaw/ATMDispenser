@@ -9,8 +9,6 @@ public class AtmDispenser {
         this.obj1 = new Rupees500();
         DispenseChain obj2 = new Rupees200();
         DispenseChain obj3 = new Rupees100();
-
-
         obj1.setNextChain(obj2);
         obj2.setNextChain(obj3);
     }
